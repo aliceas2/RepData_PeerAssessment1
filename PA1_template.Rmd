@@ -7,7 +7,7 @@ title: "Reproducible Research: Peer Assessment 1"
 
 ## Loading and preprocessing the data
 
-###Load Libraries 
+### Load Libraries 
 Scientific notation is also turned off.
 ```{r}
 options(scipen=999)
@@ -17,7 +17,7 @@ library(dplyr)
 library(lattice)
 ````
 
-###Load the data
+### Load the data
 
 ````{r}
 summary <- read.csv("activity.csv", colClasses = c("numeric", "character", 
