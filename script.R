@@ -7,7 +7,9 @@ library(chron)
 library(dplyr)
 library(lattice)
 
-##data("summary", package = "ggplot2")  # load the data
+##data("summary", package = "ggplot2")  
+
+# load the data
 summary <- read.csv("activity.csv", colClasses = c("numeric", "character", 
                                                  "numeric"))
 summary$date <- as.Date(summary$date)
